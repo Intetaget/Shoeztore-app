@@ -8,3 +8,12 @@ Feature: Send email regarding new shoe Releases to Users Who Want Them
 		And I click on the button to submit the email address
 		Then a message will appear
 		And the message will be tailored to the user
+
+		Examples:
+				| email address |
+				| My@mittens.com |
+				| salmonshame@gmail.com |
+				| donatello@panda.com |
+				| rockon@drogon.com |
+				| blue@shift.com |
+				| boby@thebruised.com |

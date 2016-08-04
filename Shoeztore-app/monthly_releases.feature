@@ -14,6 +14,22 @@ Given I am on the Shoe Store's home page
          I should see a blurb for each shoe
         And I should see an image for each shoe
 
+        Examples:
+            | month |
+            | January |
+            | February |
+            | March |
+            | April | 
+            | May |
+            | June |
+            | July |
+            | August |
+            | September |
+            | October |
+            | November |
+            | December |
+
+
 
 
 
