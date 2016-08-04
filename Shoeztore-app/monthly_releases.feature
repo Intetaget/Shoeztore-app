@@ -1,3 +1,8 @@
+
+Feature: Display New Releases Each Month
+	As a customer of the shoe store I want to be able to visit a link
+	That will display the monthly releases
+
 Given I am on the Shoe Store's home page
 
     Scenario Outline: Display a Month's New Releases When a User Clicks on It
@@ -8,6 +13,8 @@ Given I am on the Shoe Store's home page
          Each price should be a valid value
          I should see a blurb for each shoe
         And I should see an image for each shoe
+
+
 
 
 
