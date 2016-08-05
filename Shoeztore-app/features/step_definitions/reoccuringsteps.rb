@@ -1,4 +1,6 @@
-month_page = MonthPage.new($browser)
+def month_page
+  MonthPage.new($browser)
+end
 
 Then (/^I should see shoes displayed on the page$/) do
  	expect(month_page.shoes_exist?).to be true

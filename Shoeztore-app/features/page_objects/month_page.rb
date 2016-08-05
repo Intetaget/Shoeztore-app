@@ -55,4 +55,4 @@ class MonthPage
     end
   end
 end
-Contact GitHub API Training Shop Blog About
+#Contact GitHub API Training Shop Blog About

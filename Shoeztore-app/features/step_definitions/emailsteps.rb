@@ -1,4 +1,6 @@
-new_page = HomePage.new($browser)
+def new_page
+	HomePage.new($browser)
+end
 
 Then(/^There will be a form field to subscribe to monthly releases$/) do
   expect(new_page.subscribe_field_exists?).to be true
